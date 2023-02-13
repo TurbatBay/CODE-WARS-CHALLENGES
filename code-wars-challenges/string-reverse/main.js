@@ -6,6 +6,12 @@ function solution(str) {
   return revertedStr
 }
 
-let test = 'h'
+let test = prompt('Revert hiih textee oruul')
 let revertTest = solution(test)
 console.log(revertTest)
+
+const body = document.body
+const div = document.createElement('h3')
+div.innerText = `Reverted text: "${revertTest}"`
+
+body.append(div)
